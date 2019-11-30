@@ -1,0 +1,3 @@
+//man ifconfig : configure network interface parameters
+
+ifconfig -l

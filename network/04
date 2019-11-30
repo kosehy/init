@@ -1,0 +1,3 @@
+man route : manually manipulate the routing tables
+
+route get default | grep gateway | awk '/gateway/{print $2}'

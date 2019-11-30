@@ -1,0 +1,18 @@
+(a)
+man grep : file pattern searcher
+man awk  : pattern-directed scanning and processing language
+
+ANS:
+ifconfig | grep "broadcast" | awk '{print $6}'
+
+(b)
+IP, IP address, Class : https://engkimbs.tistory.com/621
+Subnet, Subnet masking : 
+https://engkimbs.tistory.com/622
+https://searchnetworking.techtarget.com/definition/subnet
+Subnetting: https://www.youtube.com/watch?v=ecCuyq-Wprc
+
+man arp : address resolution display and control
+
+ANS:
+arp -a

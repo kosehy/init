@@ -1,0 +1,4 @@
+How to find your mac address in Mac OS X
+https://www.iclarified.com/30929/how-to-find-your-mac-address-in-mac-os-x
+
+ifconfig en1 | awk '/ether/{print $2}'
