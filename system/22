@@ -1,0 +1,4 @@
+/sbin/adduser username
+
+example
+/sbin/adduser sako

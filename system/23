@@ -1,0 +1,14 @@
+1) Graphic session:
+   go to menu
+   select switch user
+   select start new session
+   select any user account
+   type passwd
+   DONE!
+
+2) ssh
+   ssh "new user id"@ip
+
+   example:
+   ssh sako@192.168.99.103
+
