@@ -1,0 +1,30 @@
+#!/bin/bash
+tput clear
+tput cup 3 15
+tput setaf 3
+echo "sko Corp LTD."
+tput sgr0
+tput cup 5 17
+tput rev
+echo "M A I N - M E N U"
+tput sgr0
+tput cup 7 15
+echo "1. Weather"
+tput cup 8 15
+echo "2. Movie information : mother"
+tput bold
+tput cup 10 15 
+read -p "Enter your choice [1-2] " choice
+
+case "$choice" in
+    1)
+        weather
+        ;;
+    2)
+        movies mother
+        ;;
+esac
+
+#tput clear
+tput sgr0
+tput rc

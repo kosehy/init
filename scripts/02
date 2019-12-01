@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "Which user account you want to delete?"
+read username
+
+USER=$username
+pkill -u $USER
+sudo userdel $USER 
