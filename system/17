@@ -1,0 +1,4 @@
+ssh userid@ip
+
+example:
+ssh sko@10.0.2.15
