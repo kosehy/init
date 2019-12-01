@@ -66,6 +66,6 @@ You can find me on:
 Enjoy!
 
 [42]: http://42.us.org "42 USA"
-[pdf]: pdf
+[pdf]: https://github.com/kosehy/init/blob/master/init.en.pdf
 
 [kosehy]: https://github.com/kosehy
