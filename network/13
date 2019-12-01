@@ -1,0 +1,3 @@
+nslookup 10.112.3.46 | grep "name" | awk '{print $4}'
+
+e1z2r3p46.42.us.org.

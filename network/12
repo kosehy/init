@@ -1,0 +1,4 @@
+DHCP : DYnamic Host COnfiguration Protocol
+https://www.lifewire.com/what-is-dhcp-2625848
+
+ipconfig getpacket en0 | grep yiaddr | awk '{print $3}'

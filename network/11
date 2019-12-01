@@ -1,0 +1,13 @@
+1  10.112.254.254 (10.112.254.254)  0.742 ms  0.430 ms  0.385 ms
+2  192.168.0.2 (192.168.0.2)  0.576 ms  0.427 ms  0.339 ms
+3  nat (10.90.1.11)  0.200 ms  0.181 ms  0.190 ms
+4  64.62.224.30 (64.62.224.30)  3.418 ms  0.912 ms  0.857 ms
+5  64.62.224.253 (64.62.224.253)  3.658 ms  4.104 ms  3.524 ms
+6  64.62.224.249 (64.62.224.249)  3.951 ms  3.816 ms  3.738 ms
+7  v1851.core2.fmt2.he.net (216.218.200.77)  3.486 ms  3.370 ms  3.335 ms
+8  100ge10-1.core3.fmt2.he.net (72.52.92.29)  3.664 ms  3.487 ms  3.803 ms
+
+the last IP which starts with 10 is 10.90.1.11
+The name and the IP address of the device that makes the linke between local network and the outside world is
+nat
+10.90.1.11
